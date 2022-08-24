@@ -1,0 +1,5 @@
+sudo apt install preload
+
+在fireforx上输入：about config 设置默认GPU加速
+
+sudo apt install synaptic 软件管理

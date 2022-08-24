@@ -1,0 +1,19 @@
+i 插前
+a 附后
+hjkl 左下右上
+o 新增下一行
+O 新增上一行
+gg 最后一行
+G 第一行
+vim --version 查看vim的配置文件，找到user vimrc file，使用vim打开配置文件并在最后一行输入 set number，set relativenumber 保存退出
+yy 复制一行 dd 删除一行
+p粘贴
+. 重复前次操作  u 撤销前次操作
+ctrl+R 撤销上次操作
+dw 删除单词 cw 改变单词  w 下个单词首部 e 下个单词尾部 b 上个单词首部
+
+：/  搜索命令
+yw 复制单词
+ci { [ 删除 { [ 里面的内容
+ctrl+v 可视化块
+shift +v 可视化行

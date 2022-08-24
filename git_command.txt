@@ -1,0 +1,31 @@
+
+github token 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
+
+git config --global user.name MaoShouren
+git config --global use.email 321479984@qq.com
+git config user.name MaoShouren 
+git config user.email 321479984@qq.com
+########### 查看git文件的状态##############
+git status
+########### 将xx.txt文件添加到git的缓存区##############
+git add xx.txt
+########### 将xx.txt文件提交到本地库##############
+git commit xx.txt
+git commit -m "This is my first modify " xx.txt #直接输入修改信息
+########### 查看git文件的日志信息##############
+git log
+git log --pretty=oneline
+git log --oneline
+git reflog
+其中(HEAD -> master)是一个指针，指向当前版本，修改版本其实修改的就是指针所指的版本
+########### 修改代码版本 ##############
+git reset --hard 哈希值
+########### 查看代码修改 ##############
+git diff xx.txt
+########### 分支操作 ##############
+git branch -v 查看分支
+git branch 分支名  创建分支
+git checkout 分支名 切换分支
+ 
+
+
